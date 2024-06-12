@@ -1,0 +1,33 @@
+<div id="footer">
+    <div>
+        <ul class="navigation">
+            <li{% if index %} class="active"{% endif %}>
+                <a href="{% url "index" %}">Home</a>
+            </li>
+            <li{% if travel %} class="active"{% endif %}>
+                <a href="{% url "travel" %}">Travel</a>
+            </li>
+            <li{% if rooms %} class="active"{% endif %}>
+                <a href="{% url "rooms" %}">Rooms</a>
+            </li>
+            <li{% if meals %} class="active"{% endif %}>
+                <a href="{% url "meals" %}">Meals</a>
+            </li>
+            <li{% if news %} class="active"{% endif %}>
+                <a href="{% url "news" %}">News</a>
+            </li>
+            <li{% if about %} class="active"{% endif %}>
+                <a href="{% url "about" %}">About</a>
+            </li>
+            <li{% if contact %} class="active"{% endif %}>
+                <a href="{% url "contact" %}">Contact</a>
+            </li>
+        </ul>
+        <div id="connect">
+            <a href="http://pinterest.com/fwtemplates/" target="_blank" class="pinterest"></a> <a href="http://freewebsitetemplates.com/go/facebook/" target="_blank" class="facebook"></a> <a href="http://freewebsitetemplates.com/go/twitter/" target="_blank" class="twitter"></a> <a href="http://freewebsitetemplates.com/go/googleplus/" target="_blank" class="googleplus"></a>
+        </div>
+    </div>
+    <p>
+        © 2023 by BHACCASYONIZTAS BEACH RESORT. All Rights Reserved
+    </p>
+</div>
